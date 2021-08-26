@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  background: linear-gradient(179.43deg, #f5f8ff 62.76%, #c0d7ff 168.3%);
+}
+
+body,
+body * {
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+@import "./global/_colors.scss";
+@import "./global/_breakpoints.scss";
+@import "./global/_classes.scss";
+
+@import "./components/_navbar.scss";

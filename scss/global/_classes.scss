@@ -1,0 +1,33 @@
+.be-container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.be-button {
+  border: 1px solid $primary;
+  border-radius: 4px;
+  padding: 8px 30px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  &:hover {
+    border-color: darken($primary, 5);
+  }
+  &.be-button-contained {
+    background: $primary;
+    color: $white;
+    &:hover {
+      background: darken($primary, 5);
+    }
+  }
+  &.be-button-outlined {
+    background: none;
+    color: $primary;
+    &:hover {
+      color: darken($primary, 5);
+      background: rgba($primary, 0.05);
+    }
+  }
+}

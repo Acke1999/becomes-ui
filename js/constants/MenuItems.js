@@ -1,0 +1,171 @@
+export const MenuItems = [
+  {
+    id: 0,
+    title: "Techologies",
+    type: "dropdown",
+    items: [
+      {
+        id: 0,
+        title: "mIDentity Line",
+        titleResponsive: "mIDManamgement",
+        color: "#15A2AB",
+        image: "/img/img1.png",
+        items: [
+          {
+            title: "mIDManamgement",
+            description: "<span>Next Gen</span> ID & Device Management",
+            location: "/",
+            image: "/img/img1-1.png",
+          },
+          {
+            title: "mIDLogin",
+            description: "<span>Next Gen</span> High Trust Login",
+            location: "/",
+            image: "/img/img1-2.png",
+          },
+          {
+            title: "mIDFederation",
+            description: "<span>Next Gen</span> Single Sign On",
+            location: "/",
+            image: "/img/img1-3.png",
+          },
+          {
+            title: "mIDVerify",
+            description: "<span>Next Gen</span> Multi-Factor Authentication",
+            location: "/",
+            image: "/img/img1-4.png",
+          },
+          {
+            title: "mIDStart",
+            description: "<span>Next Gen</span> Digital Onboarding",
+            location: "/",
+            image: "/img/img1-5.png",
+          },
+          {
+            title: "mIDRecovery",
+            description: "<span>Next Gen</span> Digital Access Recovery",
+            location: "/",
+            image: "/img/img1-6.png",
+          },
+        ],
+      },
+      {
+        id: 1,
+        title: "mPower Line",
+        titleResponsive: "mPower Line",
+        color: "#489FFF",
+        image: "/img/img2.png",
+        items: [
+          {
+            title: "mChat",
+            description: "<span>Next Gen</span> Business Messaging",
+            location: "/",
+            image: "/img/img2-1.png",
+          },
+          {
+            title: "mSign",
+            description: "<span>Next Gen</span> Digital Signature",
+            location: "/",
+            image: "/img/img2-2.png",
+          },
+          {
+            title: "mPay",
+            description: "<span>Next Gen</span> Digital Payment",
+            location: "/",
+            image: "/img/img2-3.png",
+          },
+          {
+            title: "mBusiness",
+            description: "<span>Next Gen</span> Business Process Automation",
+            location: "/",
+            image: "/img/img2-4.png",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "Family",
+        titleResponsive: "signX Family",
+        color: "#FD9D5D",
+        image: "/img/img3.png",
+        items: [
+          {
+            title: "signDot",
+            description: "Tiny IoT of Trust",
+            location: "/",
+            image: "/img/img3-1.png",
+          },
+          {
+            title: "signPod",
+            description: "Next Gen IoT of Trust",
+            location: "/",
+            image: "/img/img3-2.png",
+          },
+          {
+            title: "signPad",
+            description: "Huge IoT of Trust",
+            location: "/",
+            image: "/img/img3-3.png",
+          },
+          {
+            title: "signID",
+            description: "Secure IoT of Trust",
+            location: "/",
+            image: "/img/img3-4.png",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "Technology",
+        titleResponsive: "OTP Technology",
+        color: "#9FA9BA",
+        image: "/img/img4.png",
+        items: [
+          {
+            title: "secOVID",
+            description: "OTP fit for the future",
+            location: "/",
+            image: "/img/img4-1.png",
+          },
+          {
+            title: "secOPTIC",
+            description: "QR-Code Multi-Factor Authentication",
+            location: "/",
+            image: "/img/img4-2.png",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Cases Studies",
+    type: "link",
+    location: "/",
+  },
+  {
+    id: 1,
+    title: "Partners",
+    type: "link",
+    location: "/",
+  },
+  {
+    id: 2,
+    title: "Plans",
+    type: "link",
+    location: "/",
+  },
+  {
+    id: 3,
+    title: "Resources",
+    type: "link",
+    location: "/",
+  },
+  {
+    id: 4,
+    title: "Company",
+    type: "link",
+    location: "/",
+  },
+];
